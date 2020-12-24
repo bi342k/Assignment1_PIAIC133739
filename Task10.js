@@ -1,0 +1,12 @@
+var myVar;
+document.write('Value after variable declaration is '+myVar + '<br>');
+myVar=5;
+document.write('Initial value '+myVar  + '<br>');
+myVar=++myVar;
+document.write('Value after increment is ' + myVar  + '<br>');
+myVar=myVar+7;
+document.write('Value after addition is ' + myVar  + '<br>');
+myVar=--myVar;
+document.write('Value after decrement is ' + myVar  + '<br>');
+myVar=myVar%3;
+document.write('The reminder is ' + myVar  + '<br>');
